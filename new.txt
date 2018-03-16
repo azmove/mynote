@@ -1,2 +1,3 @@
-date
-j
+Mac下修改git默认的编辑器为nano：
+打开.git/config文件，在core中添加 editor=nano
+
