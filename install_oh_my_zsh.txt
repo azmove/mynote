@@ -1,0 +1,18 @@
+这里只介绍在mac下安装，其他平台也差不多。
+
+设置默认shell为zsh
+chsh -s $(which zsh)
+
+1，安装:
+
+Cd ~
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+安装成功后会在~/目录下创建.zshrc文件
+
+一般安装成功后默认启动shell时就已经使用了oh-my-zsh作为你默认的shell命令
+
+ 
+
+2，配置文件~/.zshrc
+一些配置参数就在~/.zshrc文件中，例如修改主题和添加自定义的补全信息就在此文件中修改
