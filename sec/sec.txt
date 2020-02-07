@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2.0.11beta" exportTime="Wed Dec 04 20:04:14 CST 2019">
+  <item>
+    <time>Wed Dec 04 20:03:53 CST 2019</time>
+    <url><![CDATA[http://192.168.64.2/dvwa/vulnerabilities/sqli_blind/cookie-input.php]]></url>
+    <host ip="192.168.64.2">192.168.64.2</host>
+    <port>80</port>
+    <protocol>http</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/dvwa/vulnerabilities/sqli_blind/cookie-input.php]]></path>
+    <extension>php</extension>
+    <request base64="true"><![CDATA[R0VUIC9kdndhL3Z1bG5lcmFiaWxpdGllcy9zcWxpX2JsaW5kL2Nvb2tpZS1pbnB1dC5waHAgSFRUUC8xLjENCkhvc3Q6IDE5Mi4xNjguNjQuMg0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKE1hY2ludG9zaDsgSW50ZWwgTWFjIE9TIFggMTAuMTU7IHJ2OjU2LjApIEdlY2tvLzIwMTAwMTAxIEZpcmVmb3gvNTYuMA0KQWNjZXB0OiB0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSwqLyo7cT0wLjgNCkFjY2VwdC1MYW5ndWFnZTogemgtQ04semg7cT0wLjgsZW4tVVM7cT0wLjUsZW47cT0wLjMNCkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZQ0KUmVmZXJlcjogaHR0cDovLzE5Mi4xNjguNjQuMi9kdndhL3Z1bG5lcmFiaWxpdGllcy9zcWxpX2JsaW5kLw0KQ29va2llOiBpZD0xOyBzZWN1cml0eT1oaWdoOyBQSFBTRVNTSUQ9YzNiYTE5YzM0NmRjY2RiYzE3ZWNiZmFjOTY0NGEzZGYNCkNvbm5lY3Rpb246IGNsb3NlDQpVcGdyYWRlLUluc2VjdXJlLVJlcXVlc3RzOiAxDQoNCg==]]></request>
+    <status></status>
+    <responselength></responselength>
+    <mimetype></mimetype>
+    <response base64="true"></response>
+    <comment></comment>
+  </item>
+</items>

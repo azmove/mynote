@@ -1,0 +1,12 @@
+GET /payload/sql/sql-bool.php?id=3 HTTP/1.1
+Host: www.xss.tv
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:56.0) Gecko/20100101 Firefox/56.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: https://www.xss.tv/payload/sql/sql-int.php?id=1
+Cookie: 53gid2=10281557565017; visitor_type=old; 53gid0=10281557565017; 53gid1=10281557565017; 53uvid=1; onliner_zdfq72218692=0; PHPSESSID=a3cq1kb4utrqipgcfcukn2pjj4; 53revisit=1575463504454; 53kf_72218692_from_host=www.xss.tv; 53kf_72218692_keyword=https%3A%2F%2Fwww.xss.tv%2Fpayload%2Fsql%2F; 53kf_72218692_land_page=https%253A%252F%252Fwww.xss.tv%252Fpayload%252Fsql%252F; kf_72218692_land_page_ok=1; invite_53kf_totalnum_1=4; my_acc_reauto_time=null
+Connection: close
+Upgrade-Insecure-Requests: 1
+Cache-Control: max-age=0
+
